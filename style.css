@@ -1,16 +1,108 @@
+:root{
+    --white-color: #ffffff;
+    --grey-color: #8e8e8e;
+    --primary-button-color: #6dc77a;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+body{
+    margin: 0;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+header{
+    background-color: var(--white-color);
+    height: 80px;
+}
+#header-container{
+    width: 75%;
+    margin: auto;
+}
+#logo-awesome{
+    margin-top: 30px;
+}
 .col-3{
     float: left;
     width: 33%;
 }
-
 a{
     text-decoration: none;
+    color: var(--grey-color)
 }
-
-nav ul{
+.col-3 ul{
     list-style: none;
+    margin-top: 29px;
 }
-
 nav li{
     float: left;
+    font-size: 0.9rem;
+    margin-left: 25px;
+}
+#getStartedBtn{
+    color: var(--white-color);
+    background-color: var(--primary-button-color);
+    float: right;
+    margin-top: 4.5px;
+    padding: 10px 26px;
+    border-radius: 1.5rem;
+}
+#main-container{
+    background-image: url(./Images/friends.jpg);
+    height: 740px;
+
+} 
+#section-one{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+#section-one h1{
+    font-size: 4em;
+    margin: 0;
+    font-weight: 400;
+}
+#section-one p{
+    font-size: 1.3em;
+    margin-top: 0.7em;
+}
+.play-button{
+    margin-top:50px;
+    margin-bottom: 120px;
+}
+#section-one h5{
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+form input{
+    padding: 1em;
+    width: 30%;
+    font-size: 0.9em;
+    border: none;
+}
+form button{
+    padding: 1em;
+    width: 30%;
+    font-size: 0.9em;
+    background-color: var(--primary-button-color);
+    color: var(--white-color);
+    border: none;
 }
