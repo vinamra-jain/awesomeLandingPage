@@ -1,0 +1,16 @@
+.col-3{
+    float: left;
+    width: 33%;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    float: left;
+}
