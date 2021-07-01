@@ -2,6 +2,8 @@
     --white-color: #ffffff;
     --grey-color: #8e8e8e;
     --primary-button-color: #6dc77a;
+    --dark-grey-color: #5d6660;
+    --light-grey-color: #f6f8fa;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -62,10 +64,9 @@ nav li{
     padding: 10px 26px;
     border-radius: 1.5rem;
 }
-#main-container{
+#section-one-container{
     background-image: url(./Images/friends.jpg);
     height: 740px;
-
 } 
 #section-one{
     width: 60%;
@@ -105,4 +106,144 @@ form button{
     background-color: var(--primary-button-color);
     color: var(--white-color);
     border: none;
+}
+#section-two{
+    margin-top: 100px;
+    text-align: center;
+}
+#section-two-heading{
+    font-weight: 1.6em;
+    font-size: 2em;
+    width: 70%;
+    margin: auto;
+    line-height: 1.5em;
+    margin-bottom: 100px;
+}
+#udemy-link{
+    color: var(--white-color);
+    background-color: var(--primary-button-color);
+    padding: 2px;
+}
+#section-two-content{
+    width: 80%;
+    margin:auto;
+    display: inline-block;
+}
+#section-two .col-3 p{
+    color: var(--dark-grey-color);
+    width: 90%;
+    margin: auto;
+    letter-spacing: 0.1em;
+    line-height: 1.7em;
+    font-size: 0.85em;
+}
+#section-two .col-3 img{
+    width: 95%;
+}
+#section-three{
+    background-color: var(--light-grey-color) ;
+    margin-top: 20px;
+    padding-top: 60px;
+    clear: both;
+}
+#section-three-content{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+.col-2{
+    width: 50%;
+    float: left;
+    
+}
+.col-2 img{
+    width: 100%;
+}
+
+#section-three-content .col-2-text{
+    padding-top: 300px;
+    padding-left: 100px;
+    width: 30%;
+}
+.col-2-text h2{
+    font-size: 2em;
+    font-weight: 525;
+    line-height: 1.5em;
+}
+.col-2-text p{
+    color: var(--dark-grey-color);
+    line-height: 1.5em;
+}
+#section-four{
+    margin-top: 20px;
+    padding-top: 60px;
+    clear: both;
+}
+#section-four-content{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+#section-four-content .col-2-text{
+    padding-top: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 30%;
+}
+#section-five{
+    background-image: url(./Images/darkdesk.png);
+    background-position: 50% 50%;
+}
+#section-five-content{
+    padding-top: 65px;
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 150px;
+    color:var(--white-color);
+}
+#section-five-content h1{
+    font-size: 4em;
+    font-weight: 100;
+    line-height: 0.8em;
+}
+#section-five-content p{
+    font-size: 1.6em;
+    font-weight: 100;
+    margin-bottom: 100px;
+}
+#section-five-link{
+    font-size: 1.7em;
+    background-color: var(--primary-button-color);
+    padding: 1.1em 3.3em;
+    color: var(--white-color);
+}
+#section-five-link:hover{
+    background-color: green;
+}
+#section-six{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+#section-six col-2-text{
+    width: 70%;
+    padding-right: 1em;
+}
+#section-six form{
+    background-color: var(--light-grey-color);
+    text-align: center;
+    padding: 0.2em;
+    width: 100%;
+}
+#section-six form h5{
+    font-weight:bolder;
+}
+#section-six form input{
+    width: 100%;
+    margin: 0.4em;
+}
+#section-six form button{
+    width: 100%;
+    margin: 0.4em;
 }
