@@ -31,6 +31,10 @@ body{
 header{
     background-color: var(--white-color);
     height: 80px;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    position: fixed;
 }
 #header-container{
     width: 75%;
@@ -63,6 +67,9 @@ nav li{
     margin-top: 4.5px;
     padding: 10px 26px;
     border-radius: 1.5rem;
+}
+#pseudo-header{
+    height: 80px;
 }
 #section-one-container{
     background-image: url(./Images/friends.jpg);
@@ -222,7 +229,7 @@ form button{
     background-color: green;
 }
 #section-six{
-    width: 70%;
+    width: 60%;
     margin: auto;
     margin-top: 30px;
 }
@@ -230,20 +237,62 @@ form button{
     width: 70%;
     padding-right: 1em;
 }
+#spacing{
+    height: 70px;
+}
 #section-six form{
     background-color: var(--light-grey-color);
     text-align: center;
-    padding: 0.2em;
+    padding: 0.2em 50px;
     width: 100%;
 }
 #section-six form h5{
     font-weight:bolder;
+    padding-bottom: 2em; 
 }
 #section-six form input{
-    width: 100%;
+    width: 90%;
     margin: 0.4em;
+    
 }
 #section-six form button{
-    width: 100%;
-    margin: 0.4em;
+    width: 96%;
+    margin: 0.6em;
+}
+#section-six form p{
+    font-size: 0.8em;
+    text-align: left;
+    color: var(--dark-grey-color);
+    padding-bottom: 20px;
+}
+#privacy-policy{
+    text-decoration: underline;
+    color: blue;
+}
+#spacing-footer{
+    height: 30px;
+    clear: both;
+}
+footer{
+    background-image: url(./Images/footerbg.png);
+    height: 500px;
+    clear: both;
+    background-position: 50% 50%;
+}
+footer .col-3{
+    text-align: center;
+    padding: 60px 0;
+    margin-bottom: 100px;
+}
+footer .col-3:hover{
+    background-color: black;
+    opacity: 50%;
+}
+#footer-text{
+    color: var(--white-color);
+    text-align: center;
+    margin: auto;
+    clear: both;
+    line-height: 50px;
+    font-size: small;
 }
